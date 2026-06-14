@@ -431,7 +431,7 @@ if __name__ == "__main__":
             print("\n─── RIWAYAT MEDIS TERAKHIR ───")
             id_view, ok = input_batal("ID Pasien : ")
             if not ok: continue
-            klin微k.tampilkan_riwayat_terakhir(id_view.upper())
+            klinik.tampilkan_riwayat_terakhir(id_view.upper())
 
         elif pilihan == "8":
             print("\n─── BATALKAN TINDAKAN TERAKHIR (UNDO) ───")
